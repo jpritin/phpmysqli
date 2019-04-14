@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 <style>
 table {
   font-family: arial, sans-serif;
@@ -37,6 +38,8 @@ if (!$conn) {
  
 $sql = "SELECT id, firstname, lastname, email FROM contactos";
 $result = mysqli_query($conn, $sql);
+ 
+echo "<a href=\"ejercicio07formulario.php\" class=\"btn btn-success pull-right\">Añadir contacto</a>";
  
 if (mysqli_num_rows($result) > 0) {
     // Cabecera de la tabla
