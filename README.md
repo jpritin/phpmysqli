@@ -60,3 +60,4 @@ NOTA: Incluye un enlace a una página php que se encargue de borrar dicho regist
 NOTA: Incluye un enlace a una página php que se encargue de ver dicho registro. Se pasará como parámetro en la URL el “id” del contacto a borrar.
 
 - [ejercicio12.php](ejercicio12.php)
+- [vercontacto.php](vercontacto.php)
