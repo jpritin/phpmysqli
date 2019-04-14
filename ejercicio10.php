@@ -45,14 +45,16 @@ if (mysqli_num_rows($result) > 0) {
     echo "  <th>Nombre</th>";
     echo "  <th>Apellidos</th>";
     echo "  <th>E-mail</th>";
+    echo "  <th>Borrar</th>";    
     echo "  </tr>";
  
     while($row = mysqli_fetch_assoc($result)) {
-           // Datos de cada fila/registro
+               // Datos de cada fila/registro
           echo "<tr>";
               echo "<td>".$row['firstname']."</td>";
               echo "<td>".$row['lastname']."</td>";
               echo "<td>".$row['email']."</td>";
+              echo "<td><a href=\"borracontacto.php?id=".$row['id']."\">borra</a></td>";
               echo "</tr>";
     }
     // Fin de la tabla
