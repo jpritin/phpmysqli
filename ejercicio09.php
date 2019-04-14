@@ -1,5 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+ 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+ 
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
 <body>
 <?php
 // Datos para la conexión con MySql
@@ -20,10 +39,24 @@ $sql = "SELECT id, firstname, lastname, email FROM contactos";
 $result = mysqli_query($conn, $sql);
  
 if (mysqli_num_rows($result) > 0) {
-    // Mostramos los datos de cada fila/registro
+    // Cabecera de la tabla
+    echo "<table>";
+    echo "  <tr>";
+    echo "  <th>Nombre</th>";
+    echo "  <th>Apellidos</th>";
+    echo "  <th>E-mail</th>";
+    echo "  </tr>";
+ 
     while($row = mysqli_fetch_assoc($result)) {
-        echo "id: " . $row["id"]. " - Nombre: " . $row["firstname"]. " " . $row["lastname"]. " - Email: " . $row["email"]. "<br>";
+           // Datos de cada fila/registro
+          echo "<tr>";
+              echo "<td>".$row['firstname']."</td>";
+              echo "<td>".$row['lastname']."</td>";
+              echo "<td>".$row['email']."</td>";
+              echo "</tr>";
     }
+    // Fin de la tabla
+    echo "</table>";
 } else {
     echo "0 resultados";
 }
