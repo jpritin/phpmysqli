@@ -4,7 +4,7 @@ Recopilación de ejercicios básicos de php y mysqli
 ## Ejercicios
 1. Crea una página en php que muestra el mensaje “Hello World” encerrado entre etiquetas “h1”.
 
-*[ejercicio01.php](ejercicio01.php)
+..*[ejercicio01.php](ejercicio01.php)
 
 2. Crea una página en php que muestre el nombre, edad e email de una persona, usando variables para almacenar los datos.
 
