@@ -56,7 +56,7 @@ NOTA: Incluye un enlace a una página php que se encargue de borrar dicho regist
 
 - [ejercicio11.php](ejercicio11.php)
 
-12 Modifica el ejercicio anterior de modo que se muestre una columna adicional en la tabla que permita ver un registro de la tabla “contactos.
+12 Modifica el ejercicio anterior de modo que se muestre una columna adicional en la tabla que permita ver un registro de la tabla "contactos".
 NOTA: Incluye un enlace a una página php que se encargue de ver dicho registro. Se pasará como parámetro en la URL el “id” del contacto a borrar.
 
 - [ejercicio12.php](ejercicio12.php)
