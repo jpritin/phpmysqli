@@ -13,3 +13,12 @@ del número 5. Nota: Usa un bucle “for”.
 5. Crea un formulario html en el que se introduzca un número, y una página php que recoja los datos de dicho formulario e imprima la tabla de multiplicar de dicho número.
 [ejercicio05formulario.php](ejercicio05formulario.php)
 [ejercicio05.php](ejercicio05.php)
+6. Crea un formulario para introducir los datos de una persona (nombre, apellidos, email) y una página php que visualice dichos datos.
+Nota: Previamente habremos creado un usuario, una base de datos y una tabla para almacenar los datos en MySQL.
+[ejercicio06formulario.php](ejercicio06formulario.php)
+[ejercicio06.php](ejercicio06.php)
+7. Crea una página que utilizando los datos del formulario del ejercicio 6, almacene dichos datos en una base de datos MySQL.
+Nota: Crearemos un nuevo formulario para la captura de datos y una página que se encargará de recoger los datos del formulario e insertarlos en una tabla MySQL.
+[ejercicio07tabla.sql](ejercicio07tabla.sql)
+[ejercicio07formulario.php](ejercicio07formulario.php)
+[ejercicio07.php](ejercicio07.php)
