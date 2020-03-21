@@ -8,7 +8,7 @@ encerrado entre etiquetas “h1”
 */
 $txt = "Hello";
 for($x = 1; $x <= 10; $x++){
-    echo "<h1>".$txt."</h1>";
+    echo "<h2>".$txt."</h2>";
 }
 ?>
 </body>
