@@ -9,9 +9,10 @@ una persona, usando variables para almacenar los datos.
 $nombre = "Pedro";
 $edad = 21;
 $email = "pedro@gmail.com";
-echo "<h1>".$nombre."</h1>";
-echo "<h1>".$edad."</h1>";
-echo "<h1>".$email."</h1>";
+echo "<h1>Datos personales</h1>";
+echo "<h2>".$nombre."</h2>";
+echo "<h2>".$edad."</h2>";
+echo "<h2>".$email."</h2>";
 ?>
 </body>
 </html>
